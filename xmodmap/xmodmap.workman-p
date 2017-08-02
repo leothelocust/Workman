@@ -53,11 +53,13 @@ keycode  59 =        comma          less     dead_cedilla        asciitilde
 keycode  60 =       period       greater    dead_abovedot        asciitilde            
 keycode  61 =        slash      question     questiondown        asciitilde            
                                                                                       
-keycode  66 =    BackSpace        Escape        BackSpace         BackSpace            
+!keycode  66 =    BackSpace        Escape        BackSpace         BackSpace            
 keycode  94 =        minus    underscore           endash            emdash            
 keycode  65 =        space         space            space      nobreakspace            
-keycode 113 =  Mode_switch   Mode_switch                                               
-clear Lock
+!keycode 113 =  Mode_switch   Mode_switch                                               
+clear lock
+keycode  66 =    Control_L
+add Control =    Control_L
 
 !clear Shift
 !clear Control
@@ -74,10 +76,10 @@ clear Lock
 !add    Mod4    = Meta_L Meta_R
 !add    Mod5    = Scroll_Lock 
 
-!keycode   9 = Escape
-!keycode  22 = BackSpace Terminate_Server
+keycode   9 = Escape
+keycode  22 = BackSpace
 !keycode  23 = Tab ISO_Left_Tab
-!keycode  36 = Return
+keycode  36 = Return
 !keycode  37 = Control_L
 !keycode  50 = Shift_L
 !keycode  62 = Shift_R
